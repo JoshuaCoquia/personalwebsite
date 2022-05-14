@@ -4,6 +4,11 @@
   "workspaces": [
     "webapp/"
   ],
+  "scripts": {
+    "dev": "yarn workspace webapp vite",
+    "build": "yarn workspace webapp tsc && vite build",
+    "preview": "yarn workspace webapp vite preview"
+  },
   "dependencies": {
     "eslint": "^8.15.0",
     "prettier": "^2.6.2",
