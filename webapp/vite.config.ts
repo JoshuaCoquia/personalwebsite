@@ -1,16 +1,16 @@
 import { resolve, dirname } from "path";
 import { defineConfig } from "vite";
-import { VitePWA } from 'vite-plugin-pwa';
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [VitePWA({
-        registerType: 'autoUpdate',
-    })],
+    plugins: [],
     build: {
         rollupOptions: {
             input: {
                 main: resolve(dirname(""), "index.html"),
+                blogs: resolve(dirname(""), "blogs/index.html"),
+                'blogs/beginning': resolve(dirname(""), "blogs/beginning/index.html"),
                 projects: resolve(dirname(""), "projects/index.html"),
+                contact: resolve(dirname(""), "contact/index.html"),
             },
         },
     },
