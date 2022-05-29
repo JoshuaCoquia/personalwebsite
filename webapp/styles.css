@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
     display: grid;
     padding-left: 1rem;
@@ -46,13 +46,8 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
-    background-color: black;
-    text-decoration: none;
-}
-
-nav a:active {
-    background-color: black;
+nav a:active, nav a:hover {
+    background-color: darkgreen;
     text-decoration: none;
 }
 
@@ -95,6 +90,8 @@ ol, ul {
 
 li {
     list-style-type: none;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 hr {
@@ -103,7 +100,7 @@ hr {
 }
 
 footer {
-    background-color: darkgrey;
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -113,6 +110,13 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: auto;
+}
+
+footer a:link {
+    color: aqua;
+}
+footer a:visited, footer a:hover, footer a:active {
+    color: hotpink;
 }
 
 :target {
