@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "vite-plugin-pwa": "^0.12.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.33",
