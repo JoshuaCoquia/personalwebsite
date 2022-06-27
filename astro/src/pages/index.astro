@@ -1,13 +1,70 @@
 ---
-
+import Header from '../components/header.astro';
 ---
+
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="The website of an aspiring web developer." />
+	<title>Joshua Coquia's Website</title>
+	<link rel="stylesheet" href="/styles.css" />
+	<script type="module" src="/src/script.ts"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Joshua Coquia</h1>
+		<nav>
+			<a href="/">Home</a>
+			<a href="/blogs/">Blogs</a>
+			<a href="/projects/">Projects</a>
+			<a href="/contact/">Contact</a>
+		</nav>
+	</header>
+	<section class="content">
+		<h2 id="Welcome%20to%20my%20website!">Hey there! Welcome to my website!</h2>
+		<ul>
+			<li>
+				<p><a href="#Who%20am%20I%3F">Who am I?</a></p>
+			</li>
+			<li>
+				<p><a href="#What%20is%20this%3F">What is this?</a></p>
+			</li>
+		</ul>
+
+		<hr>
+
+		<section>
+			<h3 id="Who%20am%20I%3F">Who am I?</h3>
+			<p>I am <b>Joshua Coquia</b>. I am a sophomore in high school, and I want to be a software developer when I
+				grow up. I am currently considering getting a degree in computer science. I am self-taught. All of my
+				current projects are websites, where I use the concepts I learned online to
+				create a good looking website for the end user. For all of my current projects, I use TypeScript, a
+				superset of JavaScript that has a type system, a compiler to catch errors, and tooling to make
+				development easier. I am familiar with using Vite, React, SCSS, and a few other technologies that make
+				web development easier. I additionally have some amount of experience in C++ and Python.</p>
+			<p>I play video games. I like to play fast-paced games.</p>
+		</section>
+		<section>
+			<h3 id="What%20is%20this%3F">What is this?</h3>
+			<p>This is a website where I write about my life and show my creations. In this website, I write about my
+				personal life, my experience in education, my experience in programming, and many other subjects. I
+				showcase my online projects, and I might additionally showcase a few of my other projects.</p>
+			<p>I will write about my personal life, which includes the games I play, the devices I use, the way I live,
+				and more. I will be writing about my education, how I feel about it, how I have been doing in school,
+				and what I plan on doing in my future in terms of education. I will be writing about the years that I
+				have done programming as a hobby, and how I plan on getting a job in some form of software development.
+			</p>
+			<p>I will write about my projects. This website is just one project I want to create. I will create many
+				different things, and I will post about the creation of them here. I plan to post the project itself, my
+				experience with making it, and the finished product.</p>
+		</section>
+	</section>
+	<footer>
+		<p>Thank you for visiting my website!</p>
+	</footer>
+</body>
+
 </html>

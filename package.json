@@ -2,7 +2,7 @@
   "name": "personalwebsite",
   "packageManager": "yarn@3.2.0",
   "workspaces": [
-    "webapp/"
+    "vite/"
   ],
   "scripts": {
     "dev": "yarn workspace webapp vite",
@@ -10,6 +10,7 @@
     "preview": "yarn workspace webapp vite preview"
   },
   "dependencies": {
+    "astro": "^1.0.0-beta.42",
     "chalk": "^5.0.1",
     "eslint": "^8.15.0",
     "prettier": "^2.6.2",
