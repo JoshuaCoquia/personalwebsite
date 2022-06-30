@@ -1,28 +1,7 @@
 ---
-import Header from '../components/header.astro';
+import Default from '@layouts/default.astro';
 ---
-
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="The website of an aspiring web developer." />
-	<title>Joshua Coquia's Website</title>
-	<link rel="stylesheet" href="/styles.css" />
-	<script type="module" src="/src/script.ts"></script>
-</head>
-
-<body>
-	<header>
-		<h1>Joshua Coquia</h1>
-		<nav>
-			<a href="/">Home</a>
-			<a href="/blogs/">Blogs</a>
-			<a href="/projects/">Projects</a>
-			<a href="/contact/">Contact</a>
-		</nav>
-	</header>
+<Default>
 	<section class="content">
 		<h2 id="Welcome%20to%20my%20website!">Hey there! Welcome to my website!</h2>
 		<ul>
@@ -62,9 +41,4 @@ import Header from '../components/header.astro';
 				experience with making it, and the finished product.</p>
 		</section>
 	</section>
-	<footer>
-		<p>Thank you for visiting my website!</p>
-	</footer>
-</body>
-
-</html>
+</Default>

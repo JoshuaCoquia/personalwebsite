@@ -5,9 +5,9 @@
     "vite/"
   ],
   "scripts": {
-    "dev": "yarn workspace webapp vite",
-    "build": "yarn workspace webapp tsc && yarn workspace webapp vite build",
-    "preview": "yarn workspace webapp vite preview"
+    "dev": "yarn workspace astro dev",
+    "build": "yarn workspace astro build",
+    "preview": "yarn workspace astro preview"
   },
   "dependencies": {
     "astro": "^1.0.0-beta.42",
